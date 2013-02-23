@@ -16,4 +16,10 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+
+  # Development Dependencies
+  gem.add_development_dependency 'factory_girl', '~> 4.1'
+  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'cover_me'
+  gem.add_development_dependency 'mocha', "~> 0.12"
 end
