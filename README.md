@@ -9,7 +9,6 @@ within your local network. Build these using factories etc, for repeatable
 interactive testing.
 
 
-
 Usage Example
 =============
 
@@ -58,7 +57,10 @@ capacity to automate any tomfoolery and cut straight to the chase. For example:
 
       user.friends << User.new(email: 'test@test.com', password: '1234')
 
-      distribute '/user/profile'
+
+      step '1' do
+        distribute '/user/profile'
+      end
     end
 
 
