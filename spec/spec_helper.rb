@@ -22,4 +22,4 @@ RSpec.configure do |config|
   end
 end
 
-require 'mocha_standalone'
+require 'mocha/api'
