@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/chris-teague/browzy.png)](https://codeclimate.com/github/chris-teague/browzy)
+
 Browzy
 ======
 
