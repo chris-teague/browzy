@@ -17,6 +17,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
+  gem.add_dependency 'rake'
+  
   # Development Dependencies
   gem.add_development_dependency 'factory_girl', '~> 4.1'
   gem.add_development_dependency 'rspec'
