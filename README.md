@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/chris-teague/browzy.png)](https://travis-ci.org/chris-teague/browzy)
+[![Code Climate](https://codeclimate.com/github/chris-teague/browzy.png)](https://codeclimate.com/github/chris-teague/browzy)
 
 Browzy
 ======
